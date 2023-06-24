@@ -20,7 +20,7 @@ $numero[12] = "Dezembro";
 $numeroUser = 9;
 
 if ($numeroUser >= 1 && $numeroUser <= 12 ){
-    echo $numero[$numeroUser];
+    echo "O mês é ". $numero[$numeroUser]. ".";
 } else {
     echo "Número invalido";   
 }
