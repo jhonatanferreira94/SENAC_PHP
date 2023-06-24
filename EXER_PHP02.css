@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    text-align: center;
+    background-color: #214260;
+}
+
+h2{
+    color: #fff;
+    margin: 50px 0 50px 0;
+    font-size: 50px;
+}
+
+.meioTela{
+    display: flex;
+    margin: 0 auto;
+    width: 80%;
+}
+
+.meioTela img{
+    width: 70%
+}
+
+form{
+    padding: 70px;
+    background-color: #fff;
+    border-radius: 50px;
+}

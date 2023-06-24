@@ -14,5 +14,6 @@ if($a > $b){
 }
 
 echo  $resultado;
+echo '<a href="EXER_PHP02.html"><input type="submit" value="Retornar"></a>';
 
 ?>
