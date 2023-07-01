@@ -17,7 +17,7 @@ $numero[10] = "Outubro";
 $numero[11] = "Novembro";
 $numero[12] = "Dezembro";
 
-$numeroUser = 9;
+$numeroUser = 12;
 
 if ($numeroUser >= 1 && $numeroUser <= 12 ){
     echo "O mês é ". $numero[$numeroUser]. ".";

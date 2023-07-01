@@ -6,11 +6,12 @@ calculada.
 Ex: N1 = 5 | N2 = 10 | N3 = 4 | MG = 6,33 [Aprovado]. */
 
 
-$nota[0] = 5;
-$nota[1] = 10;
+$nota[0] = 4;
+$nota[1] = 4;
 $nota[2] = 4;
 
-$mg = ($nota[0]+$nota[1]+$nota[2])/3;
+//$mg = ($nota[0]+$nota[1]+$nota[2])/3;
+$mg=array_sum($nota)/ sizeof($nota);
 
 echo "Nota final: " .round ($mg, 0)."<br>";
 
