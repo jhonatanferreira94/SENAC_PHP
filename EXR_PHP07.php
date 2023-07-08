@@ -16,10 +16,56 @@ Desafio, pesquise. Faça um algoritmo PHP que receba uma string, encontre o núm
    Imprime: 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21
    
  */
+ for ($valorRecebido=0; $valorRecebido<= 9; $valorRecebido++){
+  echo "$valorRecebido" . "\n";
+ }
 
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+
+$calc = 1;
+$i = 7;
+
+while ($i > 1){
+    $calc *= $i;
+    $i--;
+  }
+
+echo $calc;
+
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+
+$valorUm = 5;
+$valorDois = 15;
+
+while ( $valorUm < $valorDois-1){
+  $valorUm ++;
+  echo $valorUm."\n";
+} 
+
+echo "<br>";
+echo "<br>";
+echo "<br>";
+echo "<br>";
+
+$contador = 'Programação Web';
+$contatdorInicial=0;
+
+$contatorFinal = mb_strlen($contador);
+
+while ($contatdorInicial < $contatorFinal-1){
+  $contatdorInicial ++;
+
+  echo $contatdorInicial."\n";
+}
+echo "<br>";
+echo $contador."<br>";
+echo $contatorFinal."\n";
 
  
-
-
-
 ?>
