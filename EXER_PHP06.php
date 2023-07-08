@@ -54,7 +54,7 @@ switch ($codigoComprador) {
         break;
 
     case 2:
-        $total = $totalCompra - ($totalCompra * 15 / 100);
+        $total = $totalCompra - ($totalCompra * 10 / 100);
         echo "O valor final da compra será R$" . $total;
         break;
 
@@ -92,8 +92,9 @@ switch ($valor) {
         $total = $salario + ($salario * (30 / 100));
         echo "O valor com o reajuste será R$" . $total;
         break;
-
 }
+
+
 
 
 
